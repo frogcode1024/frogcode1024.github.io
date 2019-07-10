@@ -1,145 +1,828 @@
-
 <!DOCTYPE html>
-<html lang="zh-CN" class="loading">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>shana-test - 贾的博客</title>
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate">
-    <meta name="keywords" content="jww,"> 
-    <meta name="description" content="    Welcome to my blog, enter password to read.    Incorrect Password! No content to display!  U2Fs,"> 
-    <meta name="author" content="JWW"> 
-    <link rel="alternative" href="atom.xml" title="贾的博客" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-    <link rel="stylesheet" href="/css/diaspora.css">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-8691406134231910",
-              enable_page_level_ads: true
-         });
-    </script>
-    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.2.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.2.0',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="欢迎阅读，请输入文章密码.">
+<meta name="keywords" content="shana测试">
+<meta property="og:type" content="article">
+<meta property="og:title" content="shana-test">
+<meta property="og:url" content="https://jiagit.github.io/2019/07/09/shana-test/index.html">
+<meta property="og:site_name" content="贾的博客">
+<meta property="og:description" content="欢迎阅读，请输入文章密码.">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-07-10T03:40:28.325Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="shana-test">
+<meta name="twitter:description" content="欢迎阅读，请输入文章密码.">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="https://jiagit.github.io/2019/07/09/shana-test/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>shana-test | 贾的博客</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
 </head>
-</html>
-<body class="loading">
-    <span id="config-title" style="display:none">贾的博客</span>
-    <div id="loader"></div>
-    <div id="single">
-    <div id="top" style="display: block;">
-    <div class="bar" style="width: 0;"></div>
-    <a class="icon-home image-icon" href="javascript:;" data-url="https://jiagit.github.io"></a>
-    <div title="播放/暂停" class="icon-play"></div>
-    <h3 class="subtitle">shana-test</h3>
-    <div class="social">
-        <!--<div class="like-icon">-->
-            <!--<a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
-        <!--</div>-->
-        <div>
-            <div class="share">
-                <a title="获取二维码" class="icon-scan" href="javascript:;"></a>
-            </div>
-            <div id="qr"></div>
-        </div>
-    </div>
-    <div class="scrollbar"></div>
-</div>
 
-    <div class="section">
-        <div class="article">
-    <div class="main">
-        <h1 class="title">shana-test</h1>
-        <div class="stuff">
-            <span>七月 09, 2019</span>
-            
-  <ul class="post-tags-list"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/shana测试/">shana测试</a></li></ul>
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
+  
+  
+    
+  
 
-        </div>
-        <div class="content markdown">
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <div id="hbe-security"> <div class="hbe-input-container"> <input type="password" class="hbe-form-control" id="pass" placeholder="Welcome to my blog, enter password to read."> <label for="pass">Welcome to my blog, enter password to read.</label> <div class="bottom-line"></div> </div> </div> <div id="decryptionError" style="display:none;">Incorrect Password!</div> <div id="noContentError" style="display:none;">No content to display!</div> <div id="encrypt-blog" style="display:none"> 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 </div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
-            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
-            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="true">
-                <source type="audio/mpeg" src="/music/小酒窝.mp3">
-            </audio>
-            
-        </div>
-        
-    <div id="gitalk-container" class="comment link" data-ae="true" data-ci="cd1752eda68aa6866434" data-cs="5f3797db851a87bb206c7b5697c02da9c4eb9d81" data-r="jiagit.github.io" data-o="jiagit" data-a="jiagit" data-d="true">查看评论</div>
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
 
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
 
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">贾的博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
     </div>
     
+      
+        <p class="site-subtitle">身体和灵魂必须有一个在路上</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
 
 
-    </div>
-</div>
-</body>
-<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/diaspora.js"></script>
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
 
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+  
+  
+
+  
+
+  <a href="https://github.com/jiagit" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewbox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a>
+
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://jiagit.github.io/2019/07/09/shana-test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="JWW">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="贾的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">shana-test
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-07-09 09:26:12" itemprop="dateCreated datePublished" datetime="2019-07-09T09:26:12+08:00">2019-07-09</time>
+            </span>
+          
+
+          
+            
+
+            
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-10 11:40:28" itemprop="dateModified" datetime="2019-07-10T11:40:28+08:00">2019-07-10</time>
+              </span>
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/前端/" itemprop="url" rel="index"><span itemprop="name">前端</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
         </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
-                    </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div id="hbe-security">
+  <div class="hbe-input-container">
+  <input type="password" class="hbe-form-control" id="pass" placeholder="欢迎阅读，请输入文章密码.">
+    <label for="pass">欢迎阅读，请输入文章密码.</label>
+    <div class="bottom-line"></div>
+  </div>
+</div>
+<div id="decryptionError" style="display: none;">Incorrect Password!</div>
+<div id="noContentError" style="display: none;">No content to display!</div>
+<div id="encrypt-blog" style="display:none">
+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
+</div>
+<script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/shana测试/" rel="tag"># shana测试</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/07/09/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="gitalk-container">
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">JWW</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
                 </div>
-            </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
-            </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-name">分类</span>
+                  
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-name">标签</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
         </div>
+      </div>
+
+      
+
+      
+
     </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">JWW</span>
+
+  
+
+  
 </div>
 
 
 
 
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/three/three.min.js"></script>
+
+  
+  <script src="/lib/three/three-waves.min.js"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.2.0"></script>
+
+  <script src="/js/motion.js?v=7.2.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.2.0"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.2.0"></script>
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.2.0"></script>
+<script src="/js/post-details.js?v=7.2.0"></script>
+
+
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.2.0"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'cd1752eda68aa6866434',
+    clientSecret: '5f3797db851a87bb206c7b5697c02da9c4eb9d81',
+    repo: 'jiagit.github.io',
+    owner: 'jiagit',
+    admin: ['jiagit'],
+    id: md5(location.pathname),
+    
+      language: 'zh-CN',
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
 </html>
